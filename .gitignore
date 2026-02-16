@@ -1,0 +1,16 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Large raw/cleaned data files
+Data/*.csv
+data/**/*.csv
+cleanData/*.csv
+
+# Generated analysis artifacts
+output/*.png
