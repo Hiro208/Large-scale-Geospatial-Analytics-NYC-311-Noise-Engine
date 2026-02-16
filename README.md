@@ -2,7 +2,7 @@
 
 This project analyzes NYC 311 noise complaints with a focus on data quality, spatial patterns, and temporal trends. It is designed as a data analysis project for urban decision support.
 
-## Key Findings (Quantified)
+## Key Findings
 
 The following results come from the latest run on `2025-12-04` dataset snapshot after cleaning (`763,779` records):
 
