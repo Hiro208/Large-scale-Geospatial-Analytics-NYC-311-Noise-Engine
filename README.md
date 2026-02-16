@@ -35,8 +35,6 @@ The following results come from the latest run on `2025-12-04` dataset snapshot 
 - Input file used by the scripts: `Data/data.csv`
 - Current raw file in this repo: `data/Data/311_Service_Requests_from_2010_to_Present_20251204.csv`
 
-If your raw filename differs, map or copy it to `Data/data.csv` before running.
-
 ## Project Structure
 
 - `code/clean.py`: data cleaning pipeline
@@ -110,16 +108,3 @@ python code/Analysis.py
 2. The chi-square setup in this version compares observed borough counts against equal expected counts; domain-aware baselines (population or exposure adjusted) would be stronger.
 3. Nearest-neighbor distance is computed in lat/lon coordinate space, not projected meter-based distance.
 4. This is a cross-sectional analysis snapshot and does not model long-term causal drivers.
-
-## Interview Framing (How to Present This Project)
-
-When discussing this project in interviews, focus on:
-
-1. Why these cleaning rules:
-   - urban geospatial analysis is very sensitive to coordinate quality and category consistency.
-2. Why these metrics:
-   - count captures demand volume, density captures intensity, and both are needed for fair borough comparison.
-3. Decision relevance:
-   - results can guide where city teams prioritize enforcement, outreach, or mitigation resources.
-4. Method awareness:
-   - clearly state assumptions and bias risks, then propose next-step improvements (population-normalized rates, projected distances, seasonal decomposition).
