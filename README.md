@@ -10,6 +10,23 @@ The following results come from the latest run on `2025-12-04` dataset snapshot 
 2. Bronx has the largest complaint volume (`245,284`), while Staten Island is much lower (`16,688`), showing strong cross-borough imbalance.
 3. Borough-level complaint distribution differs significantly under a chi-square test (`chi2 = 187,809.8`, greater than critical value `9.49`), indicating non-uniform spatial concentration.
 
+## Key Visual Results
+
+### Complaint Density by Borough
+![Complaint Density by Borough](output/borough_density.png)
+
+### Spatial Hotspots (Log Density Heatmap)
+![Spatial Hotspots](output/heatmap_density.png)
+
+### Geographic Distribution (Scatter Map)
+![Geographic Distribution of Noise Complaints](output/scatter_map.png)
+
+### Hourly Complaint Trend
+![Hourly Complaint Trend](output/hourly_trend.png)
+
+### Descriptor Mix by Borough
+![Descriptor Mix by Borough](output/borough_descriptor.png)
+
 ## Data Source
 
 - Primary source: [NYC Open Data - 311 Service Requests Updates](https://opendata.cityofnewyork.us/311-service-requests-from-2010-to-present-updates/) (official)

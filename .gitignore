@@ -13,4 +13,10 @@ data/**/*.csv
 cleanData/*.csv
 
 # Generated analysis artifacts
-output/*.png
+# Keep only selected showcase figures for README preview
+output/*
+!output/borough_density.png
+!output/heatmap_density.png
+!output/scatter_map.png
+!output/hourly_trend.png
+!output/borough_descriptor.png
